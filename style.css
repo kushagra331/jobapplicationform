@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 900px;
+}
+.card{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-1, .wrapper-3{
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 20px;
+}
+.wrapper-2{
+  margin: 20px 0;
+}
+button{
+  background-color: orange;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+.wrapper-4{
+  margin-top: 41px;
+  text-align: end;
+  margin-right: 2px;
+}
+button:hover{
+  background-color: white;
+}
+input, select{
+  border-radius: 3px;
+  border: #cccccc solid 1px;
+  height: 25px;
+  width: 200px;
+}
+select{
+  width: 200px;
+}
+textarea{
+  border-radius: 3px;
+  width: 418px;
+}
+.wrapper-3 input:nth-child(3){
+  width: 200px;
+}
+#cv{
+  height: 30px;
+  width: 200px;
+  padding: 1px;
+}
+

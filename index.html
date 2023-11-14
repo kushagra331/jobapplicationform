@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <div class="card">
+          <div  class="ok">
+          <div class="wrapper-1">
+            <div class="inputfield">
+              <label for="fname">First Name</label><br>
+              <input type="text"  required>
+            </div>
+            <div class="inputfield">
+              <label for="lname">Last Name</label><br>
+              <input type="text"  required>
+            </div>
+            <div class="inputfield">
+              <label for="email">Email</label><br>
+              <input type="email" name="email" id="" required>
+            </div>
+            <div class="inputfield">
+              <label for="jobrole">Job role</label><br>
+              <select name="jobrole" id="jobrole" required>
+                <option value="front">Front End Developer</option>
+                <option value="back">Back End Developer</option>
+                <option value="full">Full Stack</option>
+                <option value="ui">UI / UX</option>
+              </select>
+            </div>
+          </div>
+          <div class="wrapper-2">
+            <label for="Address">Address</label><br>
+            <textarea name="Address" id="" cols="50" rows="5" required></textarea>
+          </div>
+          <div class="wrapper-3">
+            <!-- <div class="inputfield">
+              <label for="city">City</label>
+              <input type="text" placeholder="city" required>
+            </div> -->
+            <div class="inputfield">
+              <label for="City">City</label><br>
+              <input type="text" required>
+            </div>
+            <div class="inputfield">
+              <label for="pincode">Pincode</label><br>
+              <input type="text" required>
+            </div>
+            <div class="inputfield">
+              <label for="date">Date</label><br>
+              <input type="date"  id="date" required>
+            </div>
+            <div class="inputfield" >
+              <label for="file">Choose your CV</label>
+              <input type="file" id="cv" name="file" id="" required>
+            </div>
+          </div>
+          <div class="wrapper-4">
+            <button type="button">Apply Now</button>
+          </div>
+          </div>
+        </div>
+      </div>
+  </form>
+  </body>
+</html>
